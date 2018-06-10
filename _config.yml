@@ -80,17 +80,17 @@ backtop:
   link: false
   about: false
 
-#donation:
-#  show: true
-#  btn_text: 支持一下
-#  tip: 扫一扫，支持forsigner
-#  items:
-#    - type: 微信
-#      text: 微信扫一扫
-#      imgUrl: /images/qr-wechat.png
-#    - type: 支付宝
-#      text: 支付宝扫一扫
-#      imgUrl: /images/qr-alipay.png
+donation:
+  show: false
+  btn_text: 支持一下
+  tip: 扫一扫，支持forsigner
+  items:
+    - type: 微信
+      text: 微信扫一扫
+      imgUrl: /images/qr-wechat.png
+    - type: 支付宝
+      text: 支付宝扫一扫
+      imgUrl: /images/qr-alipay.png
 
 
 
