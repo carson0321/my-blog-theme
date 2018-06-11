@@ -20,7 +20,7 @@ home_nav:
     #  url: /project/
     #  target_blank: true #在新页面打开
   - name: GITHUB
-    url: https://github.com/carson031
+    url: https://github.com/carson0321
     target_blank: true
     #- name: Twitter
     #  url: https://twitter.com/forsigner
@@ -28,19 +28,19 @@ home_nav:
 
 # config page nav
 page_nav:
-  - name: 文章
+  - name: 博客
     url: /archives/
     target_blank: false # 不在新页面打开
-    #- name: 分类
-    #  url: /category/
-    #  target_blank: false
-    #- name: 标签
-    #  url: /tag/
-    #  target_blank: false
+  - name: 分类
+    url: /category/
+    target_blank: false
+  - name: 标签
+    url: /tag/
+    target_blank: false
     #- name: 友链
     #  url: /link/
     #  target_blank: false
-  - name: 關於
+  - name: 关于
     url: /about/
     target_blank: false
     #- name: RSS
@@ -202,8 +202,8 @@ about:
   - type: mail
     icon: icon-mail
     text_key: Gmail
-    text_value: "r03944040@g.ntu.edt.tw"
-    text_value_url: mailto:r03944040@g.ntu.edt.tw
+    text_value: "r03944040@g.ntu.edu.tw"
+    text_value_url: mailto:r03944040@g.ntu.edu.tw
   - type: location
     icon: icon-location
     text_value: Taiwan, Taipei
