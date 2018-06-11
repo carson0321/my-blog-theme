@@ -28,19 +28,19 @@ home_nav:
 
 # config page nav
 page_nav:
-  - name: 博客
+  - name: 文章
     url: /archives/
     target_blank: false # 不在新页面打开
-  - name: 分类
+  - name: 分類
     url: /category/
     target_blank: false
-  - name: 标签
+  - name: 標籤
     url: /tag/
     target_blank: false
     #- name: 友链
     #  url: /link/
     #  target_blank: false
-  - name: 关于
+  - name: 關於
     url: /about/
     target_blank: false
     #- name: RSS
