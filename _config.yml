@@ -1,6 +1,6 @@
 # Blog info
 blog_name: Deafcode
-slogan: The positive soul cann't be confined by disabled ear.
+slogan: The positive soul can't be confined by disabled ears.
 url: http://carson0321.github.io/
 
 # Set avatar (Absolute url and relative url)
@@ -22,9 +22,9 @@ home_nav:
   - name: GITHUB
     url: https://github.com/carson0321
     target_blank: true
-    #- name: Twitter
-    #  url: https://twitter.com/forsigner
-    #  target_blank: true
+  - name: LINKEDIN
+    url: https://www.linkedin.com/in/carson321/
+    target_blank: true
 
 # config page nav
 page_nav:
