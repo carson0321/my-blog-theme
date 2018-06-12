@@ -185,20 +185,11 @@ about:
     text_key: 一個愛耍廢的Hacker希望有朝一天可以變成Architect.
     text_value: "@Hacker"
     text_value_url: https://www.inside.com.tw/2015/01/13/coder-hacker-and-architect
-    #text_value:
-    #- "Scut，1991，Spring."
-    #- "喜欢设计，擅长编程，喜欢睡懒觉."
-    #- "前端开发工程师，常用 HTML / CSS / JavaScript."
   - type: Github
     icon: icon-github
     text_key: Github
     text_value: "@carson0321"
     text_value_url: https://github.com/carson0321
-    #  - type: weibo
-    #    icon: icon-weibo
-    #    text_key: 微博
-    #    text_value: "@forsigner"
-    #    text_value_url: http://weibo.com/u/1847075964
   - type: mail
     icon: icon-mail
     text_key: Gmail
@@ -207,6 +198,11 @@ about:
   - type: location
     icon: icon-location
     text_value: Taiwan, Taipei
+  - type: info
+    icon: icon-text
+    text_value:
+    - "At first I kept a diary in order to trace code. However, I think maybe I can record the unrelated things and take notes if I have something."
+    - "本想只是想打算開來做一些相關程式的記錄，也許覺得有些不相干的東西想寫下來，姑且目標先暫定想到什麼就寫什麼吧。"
 
 #link:
 #  - name: 织网
