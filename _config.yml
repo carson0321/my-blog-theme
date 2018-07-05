@@ -185,6 +185,13 @@ about:
     text_key: 一個愛耍廢的Hacker希望有朝一天可以變成Architect.
     text_value: "@Hacker"
     text_value_url: https://www.inside.com.tw/2015/01/13/coder-hacker-and-architect
+  - type: motto
+    icon: icon-feather
+    text_key:
+    - "I'm creating something I want and need for myself "
+    - "Ken Harrenstien - who is a google deaf software engineer and youtube auto-caption team leader"
+    text_value: "@Ken Harrenstien"
+    text_value_url: http://edition.cnn.com/2010/TECH/02/09/deaf.internet.captions/index.html
   - type: Github
     icon: icon-github
     text_key: Github
