@@ -46,9 +46,9 @@ page_nav:
     #- name: RSS
     #  url: /atom.xml
     #  target_blank: true # 在新页面打开
-    #- name: 搜索
-    #  url: /search/
-    #  target_blank: false # 在新页面打开
+  - name: 搜索
+    url: /search/
+    target_blank: false # 在新页面打开
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
@@ -61,10 +61,10 @@ toolbox:
   isShow: true # true|fase
   text: :-)
 
-#search_slogan:
-#  isShow: true # true|fase
-#  text: Can you find the bug of world ~
-#
+search_slogan:
+  isShow: true # true|fase
+  text: Here you can look for something :P
+
 #link_slogan:
 #  isShow: true # true|fase
 #  text: 交换友链可以邮件 forsigner@gmail.com
@@ -100,7 +100,7 @@ post:
   showToc: true # true|false
   showComments: true
   open_in_new_window: false
-  show_prev_next: true
+  show_prev_next: false
 
 # =========================================================
 # 个性化设置
