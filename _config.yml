@@ -76,7 +76,7 @@ backtop:
   archive: false
   category: false
   tag: false
-  post: false
+  post: true
   link: false
   about: false
 
