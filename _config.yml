@@ -69,6 +69,13 @@ search_slogan:
 #  isShow: true # true|fase
 #  text: 交换友链可以邮件 forsigner@gmail.com
 
+# --------------------------------------------------------------
+# # background settings
+# # --------------------------------------------------------------
+# # add canvas-nest effect
+# # see detail from https://github.com/hustcc/canvas-nest.js
+# https://www.bootcdn.cn/canvas-nest.js/
+canvas_nest: true
 
 # set backtop show or hide
 backtop:
