@@ -25,6 +25,9 @@ home_nav:
   - name: LINKEDIN
     url: https://www.linkedin.com/in/carson321/
     target_blank: true
+  - name: CV
+    url: https://github.com/carson0321/cv
+    target_blank: true
 
 # config page nav
 page_nav:
