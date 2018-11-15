@@ -1,51 +1,54 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: Deafcode
+slogan: The positive soul can't be confined by disabled ears.
+url: http://carson0321.github.io/
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
 
 # Set favicon
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: Software Engineer, Backend Engineer, Data Engineer, Android Fullstack Developer
 
 home_nav:
-  - name: Blog
+  - name: BLOG
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
-    url: /project/
-    target_blank: true #在新页面打开
-  - name: Github
-    url: https://github.com/forsigner
+    #- name: Project
+    #  url: /project/
+    #  target_blank: true #在新页面打开
+  - name: GITHUB
+    url: https://github.com/carson0321
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/forsigner
+  - name: LINKEDIN
+    url: https://www.linkedin.com/in/carson321/
+    target_blank: true
+  - name: CV
+    url: https://carson0321.github.io/cv/
     target_blank: true
 
 # config page nav
 page_nav:
-  - name: 博客
+  - name: 文章
     url: /archives/
     target_blank: false # 不在新页面打开
-  - name: 分类
+  - name: 分類
     url: /category/
     target_blank: false
-  - name: 标签
+  - name: 標籤
     url: /tag/
     target_blank: false
-  - name: 友链
-    url: /link/
-    target_blank: false
-  - name: 关于
+    #- name: 友链
+    #  url: /link/
+    #  target_blank: false
+  - name: 關於
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
+    #- name: RSS
+    #  url: /atom.xml
+    #  target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
@@ -59,29 +62,36 @@ breadcrumb:
 # 盒子
 toolbox:
   isShow: true # true|fase
-  text: 盒子
+  text: :-)
 
 search_slogan:
   isShow: true # true|fase
-  text: Can you find the bug of world ~
+  text: Here you can look for something :P
 
-link_slogan:
-  isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+#link_slogan:
+#  isShow: true # true|fase
+#  text: 交换友链可以邮件 forsigner@gmail.com
 
+# --------------------------------------------------------------
+#  background settings
+# --------------------------------------------------------------
+# add canvas-nest effect
+# see detail from https://github.com/hustcc/canvas-nest.js
+# https://www.bootcdn.cn/canvas-nest.js/
+canvas_nest: false
 
 # set backtop show or hide
 backtop:
   home: false
   archive: false
-  category: true
-  tag: true
+  category: false
+  tag: false
   post: true
   link: false
   about: false
 
 donation:
-  show: true
+  show: false
   btn_text: 支持一下
   tip: 扫一扫，支持forsigner
   items:
@@ -100,7 +110,7 @@ post:
   showToc: true # true|false
   showComments: true
   open_in_new_window: false
-  show_prev_next: true
+  show_prev_next: false
 
 # =========================================================
 # 个性化设置
@@ -124,19 +134,20 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # 第三方服务
 # =========================================================
 # Stats
-google_analytics:
-baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
+google_analytics: UA-120987054-1
+#baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
 
 # Comment service
-# disqus_shortname: forsigner
+disqus_shortname: carson0321
+# gitalk_shortname: forsigner
 # hypercomments_id: 89821
 # gentie_key: d16a7241e7cd4b389584ed8db2a4e8bc
-gitalk:
-  clientID: 277317290454635afa73
-  clientSecret: 78223c859304da5e8d71bfce136d436c6ff95c37
-  repo: blog-comment
-  owner: forsigner
-  admin: forsigner
+#gitalk:
+#  clientID: 277317290454635afa73
+#  clientSecret: 78223c859304da5e8d71bfce136d436c6ff95c37
+#  repo: blog-comment
+#  owner: forsigner
+#  admin: forsigner
 
 #有言用户编号
 #uyan_key:
@@ -185,105 +196,112 @@ valine:
 about:
   - type: me
     icon: icon-user
-    text_value:
-    - "Scut，1991，Spring."
-    - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    text_key: 一個愛耍廢的Hacker希望有朝一天可以變成Architect.
+    text_value: "@Hacker"
+    text_value_url: https://www.inside.com.tw/2015/01/13/coder-hacker-and-architect
+  - type: motto
+    icon: icon-feather
+    text_key:
+    - "I'm creating something I want and need for myself"
+    - " from Google Software Engineer, who is a deaf people"
+    text_value: "@Ken Harrenstien"
+    text_value_url: http://edition.cnn.com/2010/TECH/02/09/deaf.internet.captions/index.html
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@forsigner"
-    text_value_url: https://github.com/forsigner
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "@forsigner"
-    text_value_url: http://weibo.com/u/1847075964
+    text_value: "@carson0321"
+    text_value_url: https://github.com/carson0321
   - type: mail
     icon: icon-mail
     text_key: Gmail
-    text_value: "forsigner@gmail.com"
+    text_value: "r03944040@g.ntu.edu.tw"
+    text_value_url: mailto:r03944040@g.ntu.edu.tw
   - type: location
     icon: icon-location
-    text_value: 珠海
+    text_value: Taiwan, Taipei
+  - type: info
+    icon: icon-text
+    text_value:
+    - "At first I kept a diary in order to trace code, but I thought maybe I could take notes if I have something purposefully unrelated to things."
+    - "本想只是想打算開來做一些相關程式的記錄，也許覺得有些不相干的東西想寫下來，姑且目標先暫定想到什麼就寫什麼吧。"
 
-link:
-  - name: 织网
-    info: 身体和灵魂，总有一个在路上
-    url: http://zheng-ji.info/
-    avatar: https://avatars3.githubusercontent.com/u/1414745?v=3&s=100
-  - name: Dongyado
-    info: 生命不止，折腾不息
-    url: http://dongyado.com/
-    avatar: https://avatars0.githubusercontent.com/u/6274940?v=3&s=100
-  - name: OrangeCoder
-    info: android ffmpeg nodejs gradle
-    url: http://orangecoder.com/
-    avatar: https://avatars0.githubusercontent.com/u/2263785?v=3&s=100
-  - name: EverET
-    info: 好记性不如烂笔头
-    url: http://everet.org/about-me/
-    avatar: https://avatars1.githubusercontent.com/u/1559563?v=3&s=100
-  - name: 题叶
-    info: FP, GUI, Writing
-    url: http://tiye.me/
-    avatar: https://avatars2.githubusercontent.com/u/449224?v=3&s=100
-  - name: McChen
-    info: Stay Hungry, Stay Foolish
-    url: http://mcchen.club/
-    avatar: https://avatars0.githubusercontent.com/u/8033333?v=3&s=100
-
-
-project:
-  - type: personal
-    name: fexo
-    url: https://github.com/forsigner/fexo
-    intro: A minimalist design theme for hexo
-  # - type: company
-  #   name: Fexo
-  #   url: https://github.com/forsigner/fexo
-  #   intro: A minimalist design theme for hexo
-  - type: personal
-    name: beside
-    url: https://github.com/forsigner/beside
-    intro: I need you beside me
-  - type: personal
-    name: web-fontmin
-    url: https://github.com/forsigner/web-fontmin
-    intro: 字体子集化，在线提取你需要的字体
-  - type: personal
-    name: magic-check
-    url: https://github.com/forsigner/magic-check
-    intro: Beautify Radio and Checkbox with pure CSS
-  - type: personal
-    name: nice-bar
-    url: https://github.com/forsigner/nice-bar
-    intro: A nice and lightweight scrollbar
-  - type: personal
-    name: angular-nice-bar
-    url: https://github.com/forsigner/angular-nice-bar
-    intro: A nice and lightweight scrollbar in Angular
-  - type: personal
-    name: fo-popover
-    url: https://github.com/forsigner/fo-popover
-    intro: A nice popover for Angular
-  - type: personal
-    name: fo-tooltip
-    url: A nice tooltip for Angular
-    intro: https://github.com/forsigner/fo-tooltip
-  - type: personal
-    name: fo-modal
-    url: https://github.com/forsigner/fo-modal
-    intro: A nice modal for Angular
-  - type: personal
-    name: mocer
-    url: https://github.com/forsigner/mocer
-    intro: Setup a mock server easily
-  - type: personal
-    name: node-pngdefry
-    url: https://github.com/forsigner/node-pngdefry
-    intro: Repairing iPhone fried PNGs using Node.js
-  - type: personal
-    name: ng-simditor
-    url: https://github.com/forsigner/ng-simditor
-    intro: Angular directive for simditor
+#link:
+#  - name: 织网
+#    info: 身体和灵魂，总有一个在路上
+#    url: http://zheng-ji.info/
+#    avatar: https://avatars3.githubusercontent.com/u/1414745?v=3&s=100
+#  - name: Dongyado
+#    info: 生命不止，折腾不息
+#    url: http://dongyado.com/
+#    avatar: https://avatars0.githubusercontent.com/u/6274940?v=3&s=100
+#  - name: OrangeCoder
+#    info: android ffmpeg nodejs gradle
+#    url: http://orangecoder.com/
+#    avatar: https://avatars0.githubusercontent.com/u/2263785?v=3&s=100
+#  - name: EverET
+#    info: 好记性不如烂笔头
+#    url: http://everet.org/about-me/
+#    avatar: https://avatars1.githubusercontent.com/u/1559563?v=3&s=100
+#  - name: 题叶
+#    info: FP, GUI, Writing
+#    url: http://tiye.me/
+#    avatar: https://avatars2.githubusercontent.com/u/449224?v=3&s=100
+#  - name: McChen
+#    info: Stay Hungry, Stay Foolish
+#    url: http://mcchen.club/
+#    avatar: https://avatars0.githubusercontent.com/u/8033333?v=3&s=100
+#
+#
+#project:
+#  - type: personal
+#    name: fexo
+#    url: https://github.com/forsigner/fexo
+#    intro: A minimalist design theme for hexo
+#  # - type: company
+#  #   name: Fexo
+#  #   url: https://github.com/forsigner/fexo
+#  #   intro: A minimalist design theme for hexo
+#  - type: personal
+#    name: beside
+#    url: https://github.com/forsigner/beside
+#    intro: I need you beside me
+#  - type: personal
+#    name: web-fontmin
+#    url: https://github.com/forsigner/web-fontmin
+#    intro: 字体子集化，在线提取你需要的字体
+#  - type: personal
+#    name: magic-check
+#    url: https://github.com/forsigner/magic-check
+#    intro: Beautify Radio and Checkbox with pure CSS
+#  - type: personal
+#    name: nice-bar
+#    url: https://github.com/forsigner/nice-bar
+#    intro: A nice and lightweight scrollbar
+#  - type: personal
+#    name: angular-nice-bar
+#    url: https://github.com/forsigner/angular-nice-bar
+#    intro: A nice and lightweight scrollbar in Angular
+#  - type: personal
+#    name: fo-popover
+#    url: https://github.com/forsigner/fo-popover
+#    intro: A nice popover for Angular
+#  - type: personal
+#    name: fo-tooltip
+#    url: A nice tooltip for Angular
+#    intro: https://github.com/forsigner/fo-tooltip
+#  - type: personal
+#    name: fo-modal
+#    url: https://github.com/forsigner/fo-modal
+#    intro: A nice modal for Angular
+#  - type: personal
+#    name: mocer
+#    url: https://github.com/forsigner/mocer
+#    intro: Setup a mock server easily
+#  - type: personal
+#    name: node-pngdefry
+#    url: https://github.com/forsigner/node-pngdefry
+#    intro: Repairing iPhone fried PNGs using Node.js
+#  - type: personal
+#    name: ng-simditor
+#    url: https://github.com/forsigner/ng-simditor
+#    intro: Angular directive for simditor
