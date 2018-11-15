@@ -12,11 +12,6 @@ var uglify = require("gulp-uglify");
 
 var plugins = [autoprefixer({ browsers: ["last 1 version"] })];
 
-gulp.task("default", ["sass", "scripts"], function() {
-  gulp.watch("./source/sass/**/*.scss", ["sass"]);
-  gulp.watch("./source/js/**/*.js", ["scripts"]);
-});
-
 gulp.task("sass", function() {
   return gulp
     .src("./source/sass/**/*.scss")
@@ -53,4 +48,9 @@ gulp.task("rev", function(argument) {
       })
     )
     .pipe(gulp.dest("./layout/_partial"));
+});
+
+gulp.task("default", gulp.parallel("sass", "scripts"), function() {
+  gulp.watch("./source/sass/**/*.scss", ["sass"]);
+  gulp.watch("./source/js/**/*.js", ["scripts"]);
 });
