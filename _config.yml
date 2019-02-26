@@ -203,7 +203,7 @@ about:
     icon: icon-feather
     text_key:
     - "I'm creating something I want and need for myself"
-    - " from Google Software Engineer, who is a deaf people"
+    - " from Google Software Engineer, who is a deaf person"
     text_value: "@Ken Harrenstien"
     text_value_url: http://edition.cnn.com/2010/TECH/02/09/deaf.internet.captions/index.html
   - type: Github
@@ -222,7 +222,7 @@ about:
   - type: info
     icon: icon-text
     text_value:
-    - "At first I kept a diary in order to trace code, but I thought maybe I could take notes if I have something purposefully unrelated to things."
+    - "At first I kept a diary in order to review technique, but I thought maybe I could take notes if I have something purposefully unrelated to things."
     - "本想只是想打算開來做一些相關程式的記錄，也許覺得有些不相干的東西想寫下來，姑且目標先暫定想到什麼就寫什麼吧。"
 
 #link:
